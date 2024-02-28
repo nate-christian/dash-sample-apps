@@ -1,14 +1,9 @@
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
 import plotly.graph_objects as go
 import plotly.express as px
 import pandas as pd
 import numpy as np
-import dash_table
-from dash_table import DataTable
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 
